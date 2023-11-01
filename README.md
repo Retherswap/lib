@@ -17,5 +17,5 @@ Install this in another project via `yarn add @retherswap/lib`
 Then import the contracts via:
 
 ```solidity
-import "@uretherswap/lib/contracts/libraries/Babylonian.sol"; 
+import "@retherswap/lib/contracts/libraries/Babylonian.sol"; 
 ```
