@@ -1,0 +1,20 @@
+{
+  "abi": [],
+  "evm": {
+    "bytecode": {
+      "linkReferences": {},
+      "object": "6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea26469706673582212204cbaace2388d783fb542e909767c9f257779239acc33befbbc3e4599566aec2964736f6c634300060c0033",
+      "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x3F DUP1 PUSH1 0x1D PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0x4C 0xBA 0xAC 0xE2 CODESIZE DUP14 PUSH25 0x3FB542E909767C9F257779239ACC33BEFBBC3E4599566AEC29 PUSH5 0x736F6C6343 STOP MOD 0xC STOP CALLER ",
+      "sourceMap": "500:40:7:-:0;;;;;;;;;;;;;;;;;;;"
+    },
+    "deployedBytecode": {
+      "immutableReferences": {},
+      "linkReferences": {},
+      "object": "6080604052600080fdfea26469706673582212204cbaace2388d783fb542e909767c9f257779239acc33befbbc3e4599566aec2964736f6c634300060c0033",
+      "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0x4C 0xBA 0xAC 0xE2 CODESIZE DUP14 PUSH25 0x3FB542E909767C9F257779239ACC33BEFBBC3E4599566AEC29 PUSH5 0x736F6C6343 STOP MOD 0xC STOP CALLER ",
+      "sourceMap": "500:40:7:-:0;;;;;"
+    }
+  },
+  "metadata": "{\"compiler\":{\"version\":\"0.6.12+commit.27d51765\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/test/SafeERC20NamerTest.sol\":\"NamerTestFakeOptionalERC20\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":999999},\"remappings\":[]},\"sources\":{\"contracts/libraries/AddressStringUtil.sol\":{\"keccak256\":\"0xed8be749ee33db8df6484f3afeffa34effa30b9a04cc673659cc80b54c8138e4\",\"license\":\"GPL-3.0-or-later\",\"urls\":[\"bzz-raw://298479cfb8a110b020d3f096887ed1d962583dae73583f367c92d6c0347c3d4d\",\"dweb:/ipfs/QmRoprAFbSDFJs9HhB3Y6YHRegc884rkTKRmr7sKQaPS78\"]},\"contracts/libraries/SafeERC20Namer.sol\":{\"keccak256\":\"0x17e4556d72fe71d19c1549e2043d87fbb8862bb22ee3c058d7c921cd51f01bb5\",\"license\":\"GPL-3.0-or-later\",\"urls\":[\"bzz-raw://00c8c612c8d218ddba415a024473ab105743c603d9897362cb75bd501b05ed8a\",\"dweb:/ipfs/QmRuVockVK4faLKuGWLj4NWR51C36MejCBwyMJB4ZvCB4u\"]},\"contracts/test/SafeERC20NamerTest.sol\":{\"keccak256\":\"0x7e90fba03e905fa1765fc61c5a82370f9a2e728bd72c64304f1977377bd1d351\",\"license\":\"GPL-3.0-or-later\",\"urls\":[\"bzz-raw://6334a02f957fdd46cb66f5fd540f629b9192a03b8a16fe5acb5cc422a7344676\",\"dweb:/ipfs/Qmd8qgXJy6e9beahdLDz577BxiC2p1QE2qhHWPwScQPAhb\"]}},\"version\":1}",
+  "bytecode": "6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea26469706673582212204cbaace2388d783fb542e909767c9f257779239acc33befbbc3e4599566aec2964736f6c634300060c0033"
+}

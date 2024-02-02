@@ -1,0 +1,20 @@
+{
+  "abi": [],
+  "evm": {
+    "bytecode": {
+      "linkReferences": {},
+      "object": "60566023600b82828239805160001a607314601657fe5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea264697066735822122007123d0154b3d414553dcc806bc087d364f204de3e07c9af63c972a6bbdd6e2064736f6c634300060c0033",
+      "opcodes": "PUSH1 0x56 PUSH1 0x23 PUSH1 0xB DUP3 DUP3 DUP3 CODECOPY DUP1 MLOAD PUSH1 0x0 BYTE PUSH1 0x73 EQ PUSH1 0x16 JUMPI INVALID JUMPDEST ADDRESS PUSH1 0x0 MSTORE PUSH1 0x73 DUP2 MSTORE8 DUP3 DUP2 RETURN INVALID PUSH20 0x0 ADDRESS EQ PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 SMOD SLT RETURNDATASIZE ADD SLOAD 0xB3 0xD4 EQ SSTORE RETURNDATASIZE 0xCC DUP1 PUSH12 0xC087D364F204DE3E07C9AF63 0xC9 PUSH19 0xA6BBDD6E2064736F6C634300060C0033000000 ",
+      "sourceMap": "175:1098:3:-:0;;;;;;;;;;;;;;;;;;;;;;;;;"
+    },
+    "deployedBytecode": {
+      "immutableReferences": {},
+      "linkReferences": {},
+      "object": "73000000000000000000000000000000000000000030146080604052600080fdfea264697066735822122007123d0154b3d414553dcc806bc087d364f204de3e07c9af63c972a6bbdd6e2064736f6c634300060c0033",
+      "opcodes": "PUSH20 0x0 ADDRESS EQ PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 SMOD SLT RETURNDATASIZE ADD SLOAD 0xB3 0xD4 EQ SSTORE RETURNDATASIZE 0xCC DUP1 PUSH12 0xC087D364F204DE3E07C9AF63 0xC9 PUSH19 0xA6BBDD6E2064736F6C634300060C0033000000 ",
+      "sourceMap": "175:1098:3:-:0;;;;;;;;"
+    }
+  },
+  "metadata": "{\"compiler\":{\"version\":\"0.6.12+commit.27d51765\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/libraries/PairNamer.sol\":\"PairNamer\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":999999},\"remappings\":[]},\"sources\":{\"contracts/libraries/AddressStringUtil.sol\":{\"keccak256\":\"0xed8be749ee33db8df6484f3afeffa34effa30b9a04cc673659cc80b54c8138e4\",\"license\":\"GPL-3.0-or-later\",\"urls\":[\"bzz-raw://298479cfb8a110b020d3f096887ed1d962583dae73583f367c92d6c0347c3d4d\",\"dweb:/ipfs/QmRoprAFbSDFJs9HhB3Y6YHRegc884rkTKRmr7sKQaPS78\"]},\"contracts/libraries/PairNamer.sol\":{\"keccak256\":\"0x7a74807f7d4a549ccd7151751fab48bb565dd9b396a80b0eec1e9e3d54fcef56\",\"license\":\"GPL-3.0-or-later\",\"urls\":[\"bzz-raw://7e0229a704fece8346764d5bd30aaee12f9de11809592527c2e81403d62e398d\",\"dweb:/ipfs/QmVF3wmmYuJnLZokbXiBy61gadC6cH3Rt5qqg7u6vBL14U\"]},\"contracts/libraries/SafeERC20Namer.sol\":{\"keccak256\":\"0x17e4556d72fe71d19c1549e2043d87fbb8862bb22ee3c058d7c921cd51f01bb5\",\"license\":\"GPL-3.0-or-later\",\"urls\":[\"bzz-raw://00c8c612c8d218ddba415a024473ab105743c603d9897362cb75bd501b05ed8a\",\"dweb:/ipfs/QmRuVockVK4faLKuGWLj4NWR51C36MejCBwyMJB4ZvCB4u\"]}},\"version\":1}",
+  "bytecode": "60566023600b82828239805160001a607314601657fe5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea264697066735822122007123d0154b3d414553dcc806bc087d364f204de3e07c9af63c972a6bbdd6e2064736f6c634300060c0033"
+}
